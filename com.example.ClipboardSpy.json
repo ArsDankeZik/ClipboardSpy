@@ -1,0 +1,27 @@
+{
+  "app-id": "com.example.ClipboardSpy",
+  "runtime": "org.gnome.Platform",
+  "runtime-version": "42",
+  "sdk": "org.gnome.Sdk",
+  "command": "clipboardspy",
+  "finish-args": [
+    "--share=network",
+    "--filesystem=home"
+  ],
+  "modules": [
+    {
+      "name": "clipboardspy",
+      "buildsystem": "simple",
+      "build-commands": [
+        "pip3 install . --prefix=/app"
+      ],
+      "sources": [
+        {
+          "type": "archive",
+          "url": "file:///home/dankezik/Documentos/ClipboardSpy/ClipboardSpy.tar.gz",
+          "sha256": "d5f9a1ad144c872a60435f5f84b597e3ac0c88b379ee6091fcc59413ad62c3b8"
+        }
+      ]
+    }
+  ]
+}

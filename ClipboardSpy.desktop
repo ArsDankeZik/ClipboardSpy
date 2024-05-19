@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=ClipboardSpy
+Comment=A clipboard spy application using GTK4
+Exec=/usr/local/bin/clipboardspy
+Icon=/usr/local/share/ClipboardSpy/assets/logo.ico
+Terminal=false
+Type=Application
+Categories=Utility;
