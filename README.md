@@ -22,7 +22,7 @@ ClipboardSpy es una aplicación de monitoreo del portapapeles utilizando GTK4. E
 1. Clona este repositorio:
 
     ```sh
-    git clone https://github.com/tu_usuario/ClipboardSpy.git
+    git clone https://github.com/ArsDankeZik/ClipboardSpy.git
     cd ClipboardSpy
     ```
 
