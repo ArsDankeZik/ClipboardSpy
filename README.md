@@ -32,6 +32,12 @@ ClipboardSpy es una aplicación de monitoreo del portapapeles utilizando GTK4. E
     python src/clipboardspy.py
     ```
 
+3. Instalar la aplicación:
+
+    ```sh
+    chmod +x install.sh && ./install.sh
+    ```
+
 ### Instalación con Flatpak
 
 #### Requisitos Previos
