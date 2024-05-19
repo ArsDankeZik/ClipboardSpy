@@ -8,6 +8,7 @@ __pycache__/
 # Flatpak build files
 build/
 builddir/
+.flatpak-builder/
 
 # Tarball
 *.tar.gz
