@@ -14,7 +14,7 @@ ClipboardSpy es una aplicación de monitoreo del portapapeles utilizando GTK4. E
 
 #### Requisitos Previos
 
-- Python 3.6 o superior.
+- Python 3.9 o superior.
 - PyGObject.
 
 #### Instrucciones de Instalación
@@ -26,13 +26,7 @@ ClipboardSpy es una aplicación de monitoreo del portapapeles utilizando GTK4. E
     cd ClipboardSpy
     ```
 
-2. Instala las dependencias:
-
-    ```sh
-    pip install -r requirements.txt
-    ```
-
-3. Ejecuta la aplicación:
+2. Ejecuta la aplicación:
 
     ```sh
     python src/clipboardspy.py
@@ -46,23 +40,12 @@ ClipboardSpy es una aplicación de monitoreo del portapapeles utilizando GTK4. E
 
 #### Instrucciones de Instalación
 
-1. Construir el paquete Flatpak:
+1. Dar permisos al archivo que instala todo de manera automatica y ejecutarlo:
 
     ```sh
-    flatpak-builder --force-clean build-dir com.example.ClipboardSpy.json
+    chmod +x flatpak.sh && ./flatpak.sh
     ```
 
-2. Instalar el paquete localmente:
-
-    ```sh
-    flatpak-builder --user --install build-dir com.example.ClipboardSpy.json
-    ```
-
-3. Ejecutar la aplicación:
-
-    ```sh
-    flatpak run com.example.ClipboardSpy
-    ```
 
 ## Licencia
 
